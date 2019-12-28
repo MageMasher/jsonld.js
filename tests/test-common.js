@@ -74,8 +74,6 @@ const TEST_TYPES = {
       specVersion: ['json-ld-1.0'],
       // FIXME
       idRegex: [
-        // html
-        /html-manifest.jsonld#tf004$/,
       ]
     },
     fn: 'flatten',
@@ -210,6 +208,7 @@ const TEST_TYPES = {
         /toRdf-manifest.jsonld#twf05$/,
         // html
         /html-manifest.jsonld#tr010$/,
+        /html-manifest.jsonld#tr010$/,  // unescaped content
         // Invalid Statement
         /toRdf-manifest.jsonld#te075$/,
         /toRdf-manifest.jsonld#te111$/,
