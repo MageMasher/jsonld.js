@@ -28,6 +28,7 @@
 - Support for expansion and compaction of values container `"@direction"`.
 - Support for RDF transformation of `@direction` when `rdfDirection` is
   'i18n-datatype'.
+- Support for extracting JSON-LD from HTML, when the xmldom package is loaded.
 
 ## 2.0.2 - 2020-01-17
 
